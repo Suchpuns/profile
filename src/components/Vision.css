@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/brittany-signature');
+
+.container {
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rem;
+  align-items: center;
+  gap: 7rem;
+}
+
+.title {
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.title-my {
+  font-family: 'Brittany Signature';
+  font-size: 10rem;
+}
+.title-vision {
+  -webkit-text-stroke-width: 0.2rem;
+  font-size: 10rem;
+  display: inline-block;
+  margin-top: -5rem;
+  margin-bottom: 0vh;
+  margin-left: 10rem;
+  cursor: default;
+}
+
+.box {
+  height: 80rem;
+  width: 80rem;
+  position: absolute;
+  background-color: #FFF6E3;
+  left: 60rem;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+
+p {
+  max-width: 30rem;
+}
+
+.content-section {
+  flex: 1;
+}
