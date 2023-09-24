@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Landing.css'
 
-const onMouseMoveCaptureHandler = (event) => {
-  setS
-}
-
 const Landing = () => {
+  // const [circleSize, setCircleSize] = useState(0);
+
+  // useEffect(() => {
+  //   setC
+  // },[])
+
   return (
     <div className='landing'>
       <div className='fullname fullname-1'>

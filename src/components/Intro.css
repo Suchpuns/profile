@@ -15,7 +15,7 @@
   flex: 4;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: justify;
 }
 
 .intro-container {
@@ -41,9 +41,9 @@
 .intro-box {
   height: 80rem;
   width: 40rem;
+  margin-left: 20rem;
   position: absolute;
   background-color: #FFF6E3;
-  left: 15rem;
   z-index: -1;
 }
 

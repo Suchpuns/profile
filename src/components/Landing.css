@@ -11,6 +11,7 @@
   left: 0; 
   right: 0;
   cursor: default;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .fullname-2 .name  {
@@ -42,6 +43,7 @@
   margin-right: auto; 
   border-radius: 50rem;
   z-index: -5;
+  animation: 1s ease-in-out 0s 1 expand-animation
 }
 
 .name:hover {
@@ -78,4 +80,13 @@
   margin-left: auto; 
   margin-right: auto; 
   width: 100%;
+}
+
+@keyframes expand-animation {
+  0% {
+    transform: scale(0%)
+  }
+  100% {
+    transform: scale(100%)
+  }
 }

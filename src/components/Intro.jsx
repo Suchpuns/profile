@@ -6,11 +6,10 @@ import './Intro.css'
 const Intro = () => {
   return (
     <div className='intro'>
-      <div className='intro-box'>
-
-      </div>
       <div className='title'>
         <div className='title-my'>
+          <div className='intro-box'>
+          </div>
           introducing
         </div>
         <div className="title-me">
