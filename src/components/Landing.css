@@ -90,3 +90,15 @@
     transform: scale(100%)
   }
 }
+
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 3rem;
+    margin-top: 18rem;
+  }
+  .circle {
+    width: 16rem;
+    height: 16rem;
+    margin-top: 8rem;
+  }
+}

@@ -63,3 +63,31 @@ p {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   max-width: 30rem;
 }
+
+@media screen and (max-width: 600px) {
+  .title-my {
+    font-size: 3rem;
+  }
+  .title-me {
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  .title {
+    margin-left: 0rem;
+  }
+  .intro-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    max-width: 15rem;
+  }
+  .intro-box {
+    width: 10%;
+  }
+  .profile-pic {
+    display: inherit;
+    max-width: 20.5rem;
+  }
+}

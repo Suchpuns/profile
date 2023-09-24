@@ -27,7 +27,7 @@
   flex-direction: column;
 }
 
-p {
+.skill-circle p {
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -48,4 +48,26 @@ p {
 
 .skill-icon {
   margin-top: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  .title-personal {
+    font-size: 5rem;
+  }
+  .title-skills {
+    font-size: 4rem;
+    margin-left: 0rem;
+  }
+  .skill-container {
+    flex-direction: column;
+  }
+  .skill-content {
+    flex-direction: column;
+  }
+  .skill-circle {
+    width: 20rem;
+  }
+  .skill-circle p {
+    margin-bottom: 10rem;
+  }
 }

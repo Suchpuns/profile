@@ -13,7 +13,7 @@ const Projects = () => {
             <h4> </h4>
           </div>
         </div>
-        <div className="title">
+        <div className="title-p">
           <div className='project-circle'>
           </div>
           <div className="title-cool">
