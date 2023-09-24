@@ -6,10 +6,11 @@
   flex-direction: row;
   margin-bottom: 10rem;
   align-items: center;
+  margin-left: -10rem;
   gap: 7rem;
 }
 
-.title {
+.title-v {
   flex: 1;
 }
 

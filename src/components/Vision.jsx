@@ -9,7 +9,7 @@ const Vision = () => {
       <div className='container'>
         <div className='box'>
         </div>
-        <div className="title">
+        <div className="title-v">
           <div className="title-my">
             My
           </div>
@@ -19,7 +19,7 @@ const Vision = () => {
         </div>
         <div className="content">
           <div className="content-section">
-            <h1><FontAwesomeIcon className='vision-icon' icon={faUsers} /> Close Community</h1>
+            <h1 style={{textAlign: 'left'}}><FontAwesomeIcon className='vision-icon' icon={faUsers} /> Close Community</h1>
             <p>The best thing about a society is of course the community! And my favourite part of being in the dev portfolio was meeting all the talented people from different portfolios. I wish to connect all kinds of people from each team together. Whether its organising more society-wide events with the Culture team, or incentivising teams to do more bonding, I’m giving it my all to make everyone feel welcome </p>
           </div>
           <div className="content-section">
