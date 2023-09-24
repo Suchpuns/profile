@@ -63,17 +63,17 @@
     font-size: 5rem;
   }
   .title-projects {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .project-circle {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
   }
   .project-container {
     flex-direction: column;
   }
   .project-img {
-    max-width: 30%;
+    max-width: 80%;
   }
   .project-box {
     max-width: 20rem;
